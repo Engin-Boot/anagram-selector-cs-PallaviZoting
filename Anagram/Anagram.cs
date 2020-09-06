@@ -36,8 +36,6 @@ namespace Anagram
                     candidates.RemoveAt(i);
                 }
             }
-            Console.WriteLine("Anagrams of word {0} are : \n", word);
-            Console.WriteLine(candidates);
             return candidates;
         }
     }
