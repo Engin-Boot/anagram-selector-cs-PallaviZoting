@@ -33,7 +33,7 @@ namespace Anagram
                 bool condition = WordPairIsAnagram(word, newword);
                 if (!condition)
                 {
-                    candidates.RemoveAt(i);
+                    candidates.Remove(newword);
                 }
             }
             return candidates;
