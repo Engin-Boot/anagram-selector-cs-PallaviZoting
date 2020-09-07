@@ -34,6 +34,7 @@ namespace Anagram
                 if (!condition)
                 {
                     candidates.RemoveAt(i);
+                    i=i-1;
                 }
             }
             return candidates;
